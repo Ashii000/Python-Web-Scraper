@@ -8,29 +8,29 @@ This script demonstrates a professional web scraping process, which includes:
 4. Saving all the data into a clean CSV file.
 
 
-**Features**
+**Features**    
 
-. Scrapes Title, Price, and Star Rating from main pages.
-. Scrapes UPC, Description, and exact Stock Count from detail pages.
-. Polite scraping with a time.sleep(1) delay.
-. Includes a User-Agent header.
-. Saves all data into a single books_professional.csv file.
-
-
-**Libraries Used**
-
-. **requests **(for making HTTP requests)
-. **beautifulsoup4** (for parsing HTML)
-.** pandas** (for saving data to CSV)
+. Scrapes Title, Price, and Star Rating from main pages.  
+. Scrapes UPC, Description, and exact Stock Count from detail pages.  
+. Polite scraping with a time.sleep(1) delay.  
+. Includes a User-Agent header.  
+. Saves all data into a single books_professional.csv file.  
 
 
-**How to Run**
+**Libraries Used**  
 
-1. Make sure you have Python installed.
-2.  Install the required libraries:
-     **pip install requests beautifulsoup4 pandas**  
-3.Run the script:  
-      **python web_scraper.py**  
+. **requests **(for making HTTP requests)  
+. **beautifulsoup4** (for parsing HTML)  
+.** pandas** (for saving data to CSV)  
+
+
+**How to Run**  
+
+1. Make sure you have Python installed.  
+2.  Install the required libraries:  
+     **pip install requests beautifulsoup4 pandas**    
+3.Run the script:    
+      **python web_scraper.py**    
 
 4. The script will print its progress and create a file named **books_professional.csv** in the same folder.
 
